@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import momlogo from '../assets/mom-logo.png'
 import { FaFacebookSquare } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io";
@@ -66,47 +66,49 @@ function Navbar() {
               <div className="offcanvas-body">
                 <ul className="navbar-nav justify-content-end flex-grow-1">
                   <li className="nav-item p-3">
-                    <Link className="nav-link active fw-semibold" aria-current="page" to="/">
+                    <NavLink className="nav-link active fw-semibold" aria-current="page" to="/">
                       Home
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className="nav-item dropdown p-3">
-                    <Link className="nav-link fw-semibold" to="/about">
+                    <NavLink className="nav-link fw-semibold" to="/about">
                       About Us
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className="nav-item p-3">
-                    <Link className="nav-link fw-semibold" to="/services">
+                    <NavLink className="nav-link fw-semibold" to="/services">
                       Services
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className="nav-item p-3">
-                    <Link className="nav-link fw-semibold" to="/project">
+                    <NavLink className="nav-link fw-semibold" to="/project">
                       Project
-                    </Link>
+                    </NavLink>
                   </li>
                   <li className="nav-item p-3">
-                    <Link className="nav-link fw-semibold" to="/contact">
+                    <NavLink className="nav-link fw-semibold" to="/contact">
                       Contact
-                    </Link>
+                    </NavLink>
                   </li>
                 </ul>
                 {/* Start Other Option */}
             <div className=" others-option d-flex justify-content-center align-items-center header-icon p-3">
-              <Link
+              <div
                 className="default-btn text-decoration-none"
-                to="/"
+             
               >
-                <a href="https://www.facebook.com/profile.php?id=61559848681988&mibextid=ZbWKwL" style={{color:"white"}}>
+                <NavLink to="https://www.facebook.com/profile.php?id=61559848681988&mibextid=ZbWKwL" style={{color:"white"}}>
                   <FaFacebookSquare style={{marginRight:'10px'}} size={23} className="fa-brands fa-square-facebook" />
-                </a>
-                <a href="https://www.linkedin.com/company/momhomes/about/?viewAsMember=true" style={{color:'white'}}>
+                </NavLink>
+                <Link to="https://www.linkedin.com/company/momhomes/about/?viewAsMember=true" style={{color:'white'}}>
                 <IoLogoLinkedin style={{marginRight:'10px'}} size={25} className="fa-brands fa-twitter"    />
-                </a>
-                <a href="https://www.instagram.com/momhomes_/?igsh=MW10N2diNTU2eTBueg%3D%3D" style={{color:"white"}}>
+                </Link>
+                <Link to="https://www.instagram.com/momhomes_/?igsh=MW10N2diNTU2eTBueg%3D%3D" style={{color:"white"}}>
                 <IoLogoInstagram style={{marginRight:'5px'}}  size={25} className="fa-brands fa-instagram"   />
-                </a>
-              </Link>
+                </Link>
+                </div>
+                
+              {/* </NavLink> */}
             </div>
             {/* End Other Option */}
 

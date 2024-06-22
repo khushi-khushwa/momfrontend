@@ -55,7 +55,7 @@ img {
     overflow: clip;
 }
   
-.mom-logo{
+.main-nav .mom-logo{
     height:4rem;
     width:100%;
   }
@@ -657,12 +657,12 @@ margin-right:0px;
   height:100%;
   z-index:-1;
 }
-.owl-nav .owl-next{
+/* .owl-nav .owl-next{
   display: none;
 }
 .owl-nav .owl-prev{
   display: none;
-}
+} */
 .about-banner .about-banner-img h4{
   position:absolute;
   top:47%;
@@ -1622,7 +1622,7 @@ width:60%;
     .banner-description h1 {
        font-size: 1.5rem;
        position: absolute;
-     top: 55%;
+       top: 55%;
       
       }
     }
@@ -2405,7 +2405,7 @@ width:60%;
     padding-bottom: 4rem;
   }
 }
-  .project-banner .project-banner-img h4{
+  /* .project-banner .project-banner-img h4{
     position: absolute;
     top:48%;
   }
@@ -2414,7 +2414,7 @@ width:60%;
     position: absolute;
     top:46%;
     left:41%;
-  }
+  } */
 
 
   @media (max-width: 833px){
@@ -3108,6 +3108,258 @@ width:60%;
   height:3.5rem;
    width:3.7rem;
    left:1.5rem;
+}
+
+@media(max-width:392px){
+  .servicepage-services .services-heading p {
+    font-size: 1.5rem;
+}
+.section-title h5 {
+  color: #df8133;
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+.process .process-detail .section-title h2 {
+  font-size: 25px;
+}
+.testimonial .testimonial-title h4 {
+  font-size: 15px;
+}
+.team .team-heading h2 {
+  font-size: 1rem;
+}
+}
+@media(max-width:369px){
+  .form-section .upper-input input{
+
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+  }
+  
+  .form-section .bottom-input input{
+   
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+  }
+  .form-section .middle-input input{
+  
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+  }
+  .form-section .message-wrap textarea{
+  
+   
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+  }
+  .form-section .contact-btn .btn-contact{
+  
+    
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+  }
+}
+
+@media (max-width:390px){
+  .main-nav .mom-logo{
+    height:2rem;
+    width:50%;
+  }
+}
+@media(max-width:363px){
+  .right-content .about-text .about-title h2 {
+    font-size: 1.2rem;
+}
+  .servicepage-services .services-heading p {
+    font-size: 1.2rem;
+}
+   .servicepage-services .services-heading h4 {
+  color: #df8133;
+  font-size: 0.9rem;
+}
+.section-title h5 {
+  color: #df8133;
+  text-transform: uppercase;
+  font-size: 15px;
+
+}
+.process .process-detail .section-title h2 {
+  font-size: 25px;
+}
+.testimonial .testimonial-title h4 {
+  font-size: 15px;
+}
+.team .team-heading h2 {
+  font-size: 1rem;
+}
+}
+@media(max-width:363px){
+  /* .footer .contact-number {
+    padding: 1.4rem 0.2rem 0.7rem 1.4rem;
+    position: relative;
+} */
+
+}
+@media(max-width:363px){
+  .footer .contact-number .calling p {
+    color: white;
+    font-size: 0.8rem;
+}
+  .process .process-detail .section-title h2 {
+    font-size: 22px;
+}
+.testimonial .testimonial-title h1 {
+  font-size: 1.2rem;
+}
+.testimonial .testimonial-title h4 {
+  font-size: 12px;
+}
+.team .team-heading h2 {
+  font-size: 0.9rem;
+}
+.team .team-heading p {
+  font-size: 1.2rem;
+}
+}
+@media(max-width:327px){
+  .footer .id-address .email-id p {
+    color: white;
+    font-size: 0.9rem;
+}
+}
+
+@media(max-width:348px){
+  .footer .contact-number .calling p {
+    color: white;
+    font-size: 0.8rem;
+}
+  .form-section .upper-input input{
+    width: 18.5rem;
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+  }
+  
+  .form-section .bottom-input input{
+    width: 18.5rem;
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+  }
+  .form-section .middle-input input{
+    width: 18.5rem;
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+  }
+  .form-section .message-wrap textarea{
+    width: 18.4rem;
+   
+    margin-left:1.5rem;
+    margin-right:1.5rem;
+  }
+  .form-section .contact-btn .btn-contact{
+  
+    width:17.5rem;
+    margin-left:2rem;
+    margin-right:1.5rem;
+  }
+}
+
+@media(max-width:348px){
+  .form-section .upper-input input{
+    width: 18.5rem;
+    margin-left:1rem;
+    margin-right:1rem;
+  }
+  
+  .form-section .bottom-input input{
+    width: 18.5rem;
+    margin-left:1rem;
+    margin-right:1rem;
+  }
+  .form-section .middle-input input{
+    width: 18.5rem;
+    margin-left:1rem;
+    margin-right:1rem;
+  }
+  .form-section .message-wrap textarea{
+    width: 18.4rem;
+   
+    margin-left:1rem;
+    margin-right:1rem;
+  }
+  .form-section .contact-btn .btn-contact{
+  
+    width:17.5rem;
+    margin-left:2rem;
+    margin-right:1.5rem;
+  }
+}
+
+@media(max-width:336px){
+  .footer .contact-number .calling p {
+    color: white;
+    font-size: 0.8rem;
+}
+  .form-section .upper-input input{
+    width: 16.5rem;
+    margin-left:2.1rem;
+    margin-right:1.5rem;
+  }
+  
+  .form-section .bottom-input input{
+    width: 16.5rem;
+    margin-left:2.1rem;
+    margin-right:1.5rem;
+  }
+  .form-section .middle-input input{
+    width: 16.5rem;
+    margin-left:2.1rem;
+    margin-right:1.5rem;
+  }
+  .form-section .message-wrap textarea{
+    width: 16.6rem;
+   
+    margin-left:2rem;
+    margin-right:1rem;
+  }
+  .form-section .contact-btn .btn-contact{
+  
+    width:17.5rem;
+    margin-left:1.9rem;
+    margin-right:1.5rem;
+  }
+}
+
+
+@media(max-width:334px){
+  .form-section .upper-input input{
+    width: 16.5rem;
+    margin-left:2rem;
+    margin-right:1rem;
+  }
+  
+  .form-section .bottom-input input{
+    width: 16.5rem;
+    margin-left:2rem;
+    margin-right:1rem;
+  }
+  .form-section .middle-input input{
+    width: 16.5rem;
+    margin-left:2rem;
+    margin-right:1rem;
+  }
+  .form-section .message-wrap textarea{
+    width: 16.6rem;
+   
+    margin-left:2rem;
+    margin-right:1rem;
+  }
+  .form-section .contact-btn .btn-contact{
+  
+    width:16rem;
+    margin-left:2.5rem;
+    margin-right:1.5rem;
+  }
 }
 
 @media(990px <= width <=1200px){

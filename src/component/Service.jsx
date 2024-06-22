@@ -252,7 +252,7 @@ ensuring your complete satisfaction with every piece.</p>
                   </li>
                     <li>
                       {" "}
-                      <Link to="/about">Contact Us</Link>
+                      <Link to="/contact">Contact Us</Link>
                     </li>
                     
                   </ul>
@@ -265,26 +265,26 @@ ensuring your complete satisfaction with every piece.</p>
                 <div className="footer-links">
                   <ul>
                   <li>
-                      <Link href="/service">False Ceiling</Link>
+                      <Link to="/services">False Ceiling</Link>
                     </li>
                     <li>
-                      <Link href="/service">Electrical</Link>{" "}
-                    </li>
-                    <li>
-                      {" "}
-                      <Link href="/service">Plumbing</Link>
+                      <Link to="/services">Electrical</Link>{" "}
                     </li>
                     <li>
                       {" "}
-                      <Link href="/service">Flooring</Link>
+                      <Link to="/services">Plumbing</Link>
                     </li>
                     <li>
                       {" "}
-                      <Link href="/service">Furniture & production</Link>
+                      <Link to="/services">Flooring</Link>
                     </li>
                     <li>
                       {" "}
-                      <Link href="/service">Kitchen & Wardrobe</Link>
+                      <Link to="/services">Furniture & production</Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/services">Kitchen & Wardrobe</Link>
                     </li>
                   </ul>
                 </div>
@@ -300,15 +300,15 @@ ensuring your complete satisfaction with every piece.</p>
                     <button type='submit' style={{ border: 'none', backgroundColor: '#df8133', margin: '0%', padding: '0%' }}><FaAngleRight style={{ color: 'black', height: '60apx', width: '60px', cursor: 'pointer' }} size={30} className="fa-solid fa-angle-right" /></button>
                   </div>
                   <div className="social-media">
-                    <a href="https://www.facebook.com/profile.php?id=61559848681988&mibextid=ZbWKwL">
+                    < Link to="https://www.facebook.com/profile.php?id=61559848681988&mibextid=ZbWKwL">
                       <FaFacebookSquare style={{ color: 'white' }} size={25} className="fa-solid fa-angle-right" />
-                    </a>
-                    <a href="https://www.instagram.com/momhomes_/?igsh=MW10N2diNTU2eTBueg%3D%3D">
+                    </Link>
+                    <Link to="https://www.instagram.com/momhomes_/?igsh=MW10N2diNTU2eTBueg%3D%3D">
                       <FaInstagram style={{ color: 'white' }} size={25} className="fa-solid fa-angle-right" />
-                    </a>
-                    <a href="https://www.linkedin.com/company/momhomes/about/?viewAsMember=true" style={{ color: 'white' }}>
+                    </Link>
+                    <Link to="https://www.linkedin.com/company/momhomes/about/?viewAsMember=true" style={{ color: 'white' }}>
                       <IoLogoLinkedin style={{ marginRight: '10px' }} size={25} className="fa-brands fa-twitter " />
-                    </a>
+                    </Link>
 
                   </div>
                 </form>
@@ -351,7 +351,7 @@ ensuring your complete satisfaction with every piece.</p>
                 </div>
                 <div className="calling ms-3">
                   <h5>Call Us Now</h5>
-                  <p>+917042263950 ,+918929685663</p>
+                  <p>+917042263950 , +918929685663</p>
                 </div>
               </div>
             </div>
@@ -424,7 +424,7 @@ ensuring your complete satisfaction with every piece.</p>
                 </div>
                 <div className="full-address ms-3">
                   <h5>Location</h5>
-                  <p>Mom Homes ,Sector 93,Gurugram,HR </p>
+                  <p>Mom Homes, Sector-93, Gurugram,HR </p>
                 </div>
               </div>
             </div>

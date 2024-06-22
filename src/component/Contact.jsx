@@ -85,7 +85,9 @@ function Contact() {
     </section>
     {/* map */}
     <section className="map-location mt-0">
+   
       <div className="map ">
+      
         <iframe
           className="map-img"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59862.93478709511!2d76.97062701787804!3d28.403113202186493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1758b06381b5%3A0x708beaee0d7d341b!2sMOM%20Homes!5e0!3m2!1sen!2sin!4v1715243078605!5m2!1sen!2sin"
@@ -96,95 +98,7 @@ function Contact() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         />
-      </div>
-      <div
-        tabIndex={0}
-        aria-label="Map"
-        aria-roledescription="map"
-        role="region"
-        aria-describedby="95E45E28-27F5-4CEA-95E4-D5E5DDD830AC"
-        style={{
-          position: "absolute",
-          height: "100%",
-          width: "100%",
-          padding: 0,
-          borderWidth: 0,
-          margin: 0,
-          left: 0,
-          top: 0
-        }}
-      >
-        <div
-          id="95E45E28-27F5-4CEA-95E4-D5E5DDD830AC"
-          style={{ display: "none" }}
-        >
-          <div className="LGLeeN-keyboard-shortcuts-view">
-            <table>
-              <tbody>
-                <tr>
-                  <td>
-                    <kbd aria-label="Left arrow">←</kbd>
-                  </td>
-                  <td aria-label="Move left.">Move left</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd aria-label="Right arrow">→</kbd>
-                  </td>
-                  <td aria-label="Move right.">Move right</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd aria-label="Up arrow">↑</kbd>
-                  </td>
-                  <td aria-label="Move up.">Move up</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd aria-label="Down arrow">↓</kbd>
-                  </td>
-                  <td aria-label="Move down.">Move down</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd>+</kbd>
-                  </td>
-                  <td aria-label="Zoom in.">Zoom in</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd>-</kbd>
-                  </td>
-                  <td aria-label="Zoom out.">Zoom out</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd>Home</kbd>
-                  </td>
-                  <td aria-label="Jump left by 75%.">Jump left by 75%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd>End</kbd>
-                  </td>
-                  <td aria-label="Jump right by 75%.">Jump right by 75%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd>Page Up</kbd>
-                  </td>
-                  <td aria-label="Jump up by 75%.">Jump up by 75%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <kbd>Page Down</kbd>
-                  </td>
-                  <td aria-label="Jump down by 75%.">Jump down by 75%</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+      
       </div>
     </section>
     {/* contact area */}
@@ -426,7 +340,7 @@ function Contact() {
                   </li>
                   <li>
                     {" "}
-                    <Link to="/about">Contact Us</Link>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                  
                 </ul>
@@ -439,26 +353,26 @@ function Contact() {
               <div className="footer-links">
                 <ul>
                 <li>
-                      <Link href="/service">False Ceiling</Link>
+                      <Link to="/services">False Ceiling</Link>
                     </li>
                     <li>
-                      <Link href="/service">Electrical</Link>{" "}
-                    </li>
-                    <li>
-                      {" "}
-                      <Link href="/service">Plumbing</Link>
+                      <Link to="/services">Electrical</Link>{" "}
                     </li>
                     <li>
                       {" "}
-                      <Link href="/service">Flooring</Link>
+                      <Link to="/services">Plumbing</Link>
                     </li>
                     <li>
                       {" "}
-                      <Link href="/service">Furniture & production</Link>
+                      <Link to="/services">Flooring</Link>
                     </li>
                     <li>
                       {" "}
-                      <Link href="/service">Kitchen & Wardrobe</Link>
+                      <Link to="/services">Furniture & production</Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/services">Kitchen & Wardrobe</Link>
                     </li>
                 </ul>
               </div>
@@ -474,15 +388,15 @@ function Contact() {
                   <button type='submit' style={{border:'none',backgroundColor:'#df8133',margin:'0%',padding:'0%'}}><FaAngleRight style={{color:'black',height:'60apx',width:'60px',cursor:'pointer'}} size={30}  className="fa-solid fa-angle-right" /></button>
                 </div>
                 <div className="social-media">
-                  <a href="https://www.facebook.com/profile.php?id=61559848681988&mibextid=ZbWKwL">
+                  <Link to="https://www.facebook.com/profile.php?id=61559848681988&mibextid=ZbWKwL">
                     <FaFacebookSquare style={{color:'white'}} size={25} className="fa-solid fa-angle-right" />
-                  </a>
-                  <a href="https://www.instagram.com/momhomes_/?igsh=MW10N2diNTU2eTBueg%3D%3D">
+                  </Link>
+                  <Link to="https://www.instagram.com/momhomes_/?igsh=MW10N2diNTU2eTBueg%3D%3D">
                     <FaInstagram style={{color:'white'}} size={25} className="fa-solid fa-angle-right"/>
-                  </a>
-                  <a href="https://www.linkedin.com/company/momhomes/about/?viewAsMember=true" style={{color:'white'}}>
+                  </Link>
+                  <Link to="https://www.linkedin.com/company/momhomes/about/?viewAsMember=true" style={{color:'white'}}>
                 <IoLogoLinkedin style={{marginRight:'10px'}} size={25} className="fa-brands fa-twitter " />
-                </a>
+                </Link>
                  
                 </div>
               </form>
@@ -525,7 +439,7 @@ function Contact() {
               </div>
               <div className="calling ms-3">
                 <h5>Call Us Now</h5>
-                <p>+917042263950 ,+918929685663</p>
+                <p>+917042263950 , +918929685663</p>
               </div>
             </div>
           </div>
@@ -598,7 +512,7 @@ function Contact() {
               </div>
               <div className="full-address ms-3">
                 <h5>Location</h5>
-                <p>Mom Homes ,Sector 93,Gurugram,HR </p>
+                <p>Mom Homes, Sector-93, Gurugram,HR </p>
               </div>
             </div>
           </div>

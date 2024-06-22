@@ -11,12 +11,13 @@ import Contact from './component/Contact';
 import About from './component/About';
 import Service from './component/Service';
 import Project from './component/Project';
+import ScrollToTop from './component/ScrollToTop';
 function App() {
 
 
   return (
    <>
-   
+  
    <BrowserRouter>
   
    <Navbar/>
@@ -28,9 +29,10 @@ function App() {
       <Route path='/about' element={<About/>}/>
       <Route path='/services' element={<Service/>}/>
       <Route path='/project' element={<Project/>}/>
-      
     </Routes>
+    
     <ToastContainer />
+    <ScrollToTop/>
    </BrowserRouter>
    
    </>
