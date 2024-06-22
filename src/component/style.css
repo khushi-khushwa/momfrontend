@@ -3161,12 +3161,7 @@ width:60%;
   }
 }
 
-@media (max-width:390px){
-  .main-nav .mom-logo{
-    height:2rem;
-    width:50%;
-  }
-}
+
 @media(max-width:363px){
   .right-content .about-text .about-title h2 {
     font-size: 1.2rem;
