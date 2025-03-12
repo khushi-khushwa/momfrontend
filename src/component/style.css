@@ -3082,6 +3082,9 @@ width:60%;
   }
 }
 @media (max-width:409px){
+    .navbar-brand{
+  width:68%;
+}
   .form-section .upper-input input{
     width:20.5rem;
     margin-bottom: 0.9rem ;
